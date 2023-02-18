@@ -4,10 +4,10 @@ import sys
 if not sys.version_info[0] == 3 and sys.version_info[1] < 5:
     sys.exit('Python < 3.5 is not supported')
 
-version = '0.75'
+version = '0.76'
 
 setup(
-    name='steampy',
+    name='steampy-joki',
     packages=['steampy', 'test', 'examples', ],
     version=version,
     description='A Steam lib for trade automation',
