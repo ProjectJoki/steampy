@@ -7,7 +7,7 @@ if not sys.version_info[0] == 3 and sys.version_info[1] < 8:
 version = '1.1.3'
 
 setup(
-    name='steampy-joki',
+    name='projectjoki-steampy',
     packages=['steampy', 'test', 'examples', ],
     version=version,
     description='A Steam lib for trade automation',
