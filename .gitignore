@@ -10,3 +10,5 @@ dist
 debug.*
 deploy.sh
 secrets
+build/
+*.egg-info/
