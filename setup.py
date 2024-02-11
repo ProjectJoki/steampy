@@ -11,6 +11,7 @@ setup(
     packages=['steampy', 'test', 'examples', ],
     version=version,
     description='A Steam lib for trade automation',
+    long_description='A Steam lib for trade automation',
     author='Michał Bukowski',
     author_email='gigibukson@gmail.com',
     license='MIT',
