@@ -4,7 +4,7 @@ import sys
 if not sys.version_info[0] == 3 and sys.version_info[1] < 8:
     sys.exit('Python < 3.8 is not supported')
 
-version = '1.1.2-fix'
+version = '1.1.2fix'
 
 setup(
     name='steampy-joki',
